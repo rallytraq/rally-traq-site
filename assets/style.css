@@ -1,9 +1,9 @@
 
-:root{--bg:#f7f8f4;--text:#171917;--muted:#70756d;--accent:#73b900;--line:#e3e7de;--card:#fff}
+:root{--bg:#f4f7fa;--text:#12283c;--muted:rgba(18,40,60,.58);--accent:#3471aa;--line:rgba(18,40,60,.13);--card:#fff}
 *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Noto Sans JP",sans-serif;line-height:1.8}
 .wrap{max-width:820px;margin:auto;padding:56px 28px 88px}.brand{font-size:15px;font-weight:700;letter-spacing:.14em;margin-bottom:56px}.brand span{color:var(--accent)}
 h1{font-size:38px;line-height:1.35;margin:0 0 18px} h2{font-size:22px;margin:46px 0 10px} h3{font-size:17px;margin:28px 0 6px}
-.lead{font-size:19px;color:#30342f}.muted,.date{color:var(--muted);font-size:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;margin:20px 0}
-a{color:#4f8500;text-decoration:none} a:hover{text-decoration:underline} nav{display:flex;gap:20px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:24px;margin-top:64px;font-size:14px}
+.lead{font-size:19px;color:rgba(18,40,60,.82)}.muted,.date{color:var(--muted);font-size:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;margin:20px 0}
+a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline} nav{display:flex;gap:20px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:24px;margin-top:64px;font-size:14px}
 ul{padding-left:1.3em}.en{margin-top:72px;padding-top:52px;border-top:1px solid var(--line)}
-.hero{padding:38px 0 24px}.hero strong{color:#4f8500}.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-top:34px}.links a{display:block;background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px;color:var(--text)}
+.hero{padding:38px 0 24px}.hero strong{color:var(--accent)}.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-top:34px}.links a{display:block;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;color:var(--text)}
